@@ -12,6 +12,11 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Homework
 
 1) Please explain 1 of Wilson et. al's suggestions for good practices in computational reproducibility:
+Wilson et al., (2017) recommend to take the first steps into a better organization of the data by first doing the things that will give good results quicker. He explains the importance of data management and how to always save the raw data (make copies) and keep track it. In particular, he encourage on having different “READ ME” documents that explain the data and its changes over time. Furthermore, he recommends on using generic data files as a way to make the data more accessible.
+
+In terms of analysis, he recommends to make the columns of our data a representation of variables, to “tidy” it up!  Then, he recommends to keep it in open access repositories, so it can be used by others. At the same time, when having collaborators, it is important to place the rules and way of communication from the beginning, so the way the data is saved and used can be understood by everyone. For instance, having the appropriate/descriptive names for files, can make it easier to find and used in a more intuitive way, thus to avoid generic names such “data1” is one of the best practices.
+
+Now, when creating new code that could be used by other people, it is important to have the license and the right repository so it can be referenced when used. At the same time, having manuals of how to use the code is important as it allows other people to better make use of it. R in particular is an open access language that allow for quick collaboration, and it allows to save different versions of code and data in the cloud for other people to use.
 
 
 
@@ -20,7 +25,7 @@ knitr::opts_chunk$set(echo = TRUE)
 2) Please find the square root of 4 to the 13th power, writing your code in the gray box below so that it executes and provides the answer. Hit the play button to make sure it works:
 
 ```{r}
-
+sqrt(4^13)
 ```
 
 3) Save your file and add it to your GitHub repository at: https://classroom.github.com/a/WO52_vGE
